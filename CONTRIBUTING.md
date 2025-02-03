@@ -1,60 +1,56 @@
-# Contributing to Task Manager
+# Contributing to Task Management Application
 
-We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
+We appreciate your interest in contributing to the Task Management Application! Below are the guidelines to ensure a smooth collaboration.
 
-- Reporting a bug
-- Discussing the current state of the code
-- Submitting a fix
-- Proposing new features
-- Becoming a maintainer
+## How to Contribute
 
-## We Develop with Github
+### 1. Fork the Repository
+Click the **Fork** button at the top right of the repository page to create your own copy.
 
-We use github to host code, to track issues and feature requests, as well as accept pull requests.
+### 2. Clone Your Fork
+```sh
+   git clone https://github.com/bearerop/task-management.git
+   cd task-management
+```
 
-## We Use [Github Flow](https://guides.github.com/introduction/flow/index.html), So All Code Changes Happen Through Pull Requests
+### 3. Create a Branch
+Use a descriptive branch name that explains the change.
+```sh
+   git checkout -b feature-or-fix-description
+```
 
-Pull requests are the best way to propose changes to the codebase. We actively welcome your pull requests:
+### 4. Make Changes
+- Follow the project structure and coding style.
+- Ensure your code is clean and well-documented.
+- Test your changes before committing.
 
-1. Fork the repo and create your branch from `main`.
-2. If you've added code that should be tested, add tests.
-3. If you've changed APIs, update the documentation.
-4. Ensure the test suite passes.
-5. Make sure your code lints.
-6. Issue that pull request!
+### 5. Commit and Push
+```sh
+   git add .
+   git commit -m "Brief description of changes"
+   git push origin feature-or-fix-description
+```
 
-## Any contributions you make will be under the MIT Software License
+### 6. Create a Pull Request (PR)
+Go to the original repository, navigate to the **Pull Requests** tab, and click **New Pull Request**.
 
-In short, when you submit code changes, your submissions are understood to be under the same [MIT License](http://choosealicense.com/licenses/mit/) that covers the project. Feel free to contact the maintainers if that's a concern.
+## Reporting Issues
+If you find a bug or have a suggestion, create an issue with the following details:
+- **Title:** Clear and concise summary.
+- **Description:** Detailed explanation of the problem or improvement.
+- **Steps to Reproduce (for bugs):** Steps to replicate the issue.
 
-## Report bugs using Github's [issues](https://github.com/yourusername/task-manager/issues)
+## Code Style Guide
+- Follow the existing code formatting.
+- Use meaningful variable and function names.
+- Ensure consistent indentation and spacing.
 
-We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/yourusername/task-manager/issues/new); it's that easy!
+## Security and Best Practices
+- Do not share sensitive credentials in public PRs.
+- Validate inputs to prevent security vulnerabilities.
 
-## Write bug reports with detail, background, and sample code
+## Need Help?
+If you have any questions, feel free to open an issue or reach out to the maintainers.
 
-**Great Bug Reports** tend to have:
-
-- A quick summary and/or background
-- Steps to reproduce
-  - Be specific!
-  - Give sample code if you can.
-- What you expected would happen
-- What actually happens
-- Notes (possibly including why you think this might be happening, or stuff you tried that didn't work)
-
-People *love* thorough bug reports. I'm not even kidding.
-
-## Use a Consistent Coding Style
-
-* 2 spaces for indentation rather than tabs
-* You can try running `npm run lint` for style unification
-
-## License
-
-By contributing, you agree that your contributions will be licensed under its MIT License.
-
-## References
-
-This document was adapted from the open-source contribution guidelines for [Facebook's Draft](https://github.com/facebook/draft-js/blob/a9316a723f9e918afde44dea68b5f9f39b7d9b00/CONTRIBUTING.md)
+Thank you for contributing!
 
