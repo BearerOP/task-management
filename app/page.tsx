@@ -10,7 +10,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 export default async function Home() {
   const token = cookies().get("token")
   if (!token) {
-    redirect("/login")
+    redirect("/api/login")
   }
 
   const tasks = await getTasks()

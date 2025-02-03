@@ -3,6 +3,6 @@ import { redirect } from "next/navigation"
 
 export async function GET() {
   cookies().delete("token")
-  redirect("/login")
+  redirect("/api/login")
 }
 

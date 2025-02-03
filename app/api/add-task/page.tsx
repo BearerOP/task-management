@@ -5,7 +5,7 @@ import { redirect } from "next/navigation"
 export default function AddTaskPage() {
   const token = cookies().get("token")
   if (!token) {
-    redirect("/login")
+    redirect("/api/login")
   }
 
   return (

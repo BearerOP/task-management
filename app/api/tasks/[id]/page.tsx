@@ -6,7 +6,7 @@ import TaskDetailForm from "../../../components/TaskDetailForm"
 export default async function TaskDetailPage({ params }: { params: { id: string } }) {
   const token = cookies().get("token")
   if (!token) {
-    redirect("/login")
+    redirect("/api/login")
   }
 
   const task = await getTask(params.id)
