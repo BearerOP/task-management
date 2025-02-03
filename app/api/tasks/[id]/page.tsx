@@ -1,7 +1,7 @@
-import { getTask, updateTask, deleteTask } from "../../actions"
+import { getTask, updateTask, deleteTask } from "../../../actions"
 import { cookies } from "next/headers"
 import { redirect } from "next/navigation"
-import TaskDetailForm from "../../components/TaskDetailForm"
+import TaskDetailForm from "../../../components/TaskDetailForm"
 
 export default async function TaskDetailPage({ params }: { params: { id: string } }) {
   const token = cookies().get("token")

@@ -24,7 +24,7 @@ export default function TaskList({ tasks }: { tasks: Task[] }) {
           </CardContent>
           <CardFooter className="flex justify-end">
             <Button asChild size="sm">
-              <Link href={`/tasks/${task._id}`}>View Details</Link>
+              <Link href={`/api/tasks/${task._id}`}>View Details</Link>
             </Button>
           </CardFooter>
         </Card>

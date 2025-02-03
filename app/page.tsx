@@ -21,10 +21,10 @@ export default async function Home() {
         <h1 className="text-3xl font-bold">Task Manager</h1>
         <div className="space-x-4">
           <Button asChild>
-            <Link href="/add-task">Add New Task</Link>
+            <Link href="/api/add-task">Add New Task</Link>
           </Button>
           <Button asChild variant="outline">
-            <Link href="/logout">Logout</Link>
+            <Link href="/api/logout">Logout</Link>
           </Button>
         </div>
       </div>
